@@ -2,17 +2,20 @@
 
 This project is a survey form website built using React on the frontend and a Node.js/Express backend for handling API requests. It allows users to fill out a survey based on different topics (Technology, Health, Education), with dynamically displayed sections and validation.
 
-Features
+Features :
 Dynamic form sections based on selected survey topic (Technology, Health, Education)
 Validation for required fields and proper format (e.g., email validation)
 Integration with an external API to fetch additional questions based on the selected survey topic
 Clean and user-friendly interface with CSS styling for improved visual appeal
-Technologies Used
+
+Technologies Used :
 React.js
 Node.js
 Express
 Axios
 HTML/CSS
+
+
 Installation
 To run this project locally, follow these steps:
 
