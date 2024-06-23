@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* Light cyan background color for the entire webpage */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background color for the form container */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 2px solid #8203a1; /* Blue border for the form container */
+}
+
+h1 {
+  text-align: center;
+  color: #007757; /* Blue color for the heading */
+  margin-bottom: 30px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #f0f0f0; /* Light gray background color for inputs */
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff; /* Blue background color for the button */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.summary {
+  background-color: #f0f0f0; /* Light gray background color for the summary section */
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  word-wrap: break-word; /* Ensure long words wrap correctly */
+}
+
+.summary p {
+  margin: 10px 0;
+}
+
+.summary p strong {
+  display: block;
+  margin-bottom: 5px;
+}
