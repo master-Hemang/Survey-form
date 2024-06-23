@@ -34,7 +34,7 @@ const Form = () => {
 
     if (Object.keys(validationErrors).length === 0) {
       try {
-        const response = await axios.get(`https://form-api-nu.vercel.app/questions?topic=${values.surveyTopic}`);
+        const response = await axios.get(`http://localhost:5000/questions?topic=${values.surveyTopic}`);
         setAdditionalQuestions(response.data);
         setSummaryVisible(true);
       } catch (error) {
